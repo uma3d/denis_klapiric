@@ -375,7 +375,7 @@ h3::after {
 }
 .cta-btn.e-mail {
   background-color: transparent;
-  border: solid 2px var(--color-primary);
+  border: solid 2px var(--color-primary-light-2);
 }
 .cta-btn.e-mail:hover {
   background-color: var(--color-primary-light-1);
@@ -475,7 +475,7 @@ h3::after {
 }
 
 .cta-btn {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light-1);
   color: #fff;
   border: none;
   border-radius: 0;
@@ -491,7 +491,7 @@ h3::after {
   -o-transition: all 1s;
 }
 .cta-btn:hover {
-  background-color: var(--color-primary-light-1);
+  background-color: var(--color-primary-light-2);
   transition: all 0.3s;
 }
 
