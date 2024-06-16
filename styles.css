@@ -111,7 +111,7 @@ body {
   margin-bottom: 0.9rem;
 }
 .special-text {
-  color: var(--color-primary);
+  color: var(--color-primary-light-1);
   letter-spacing: 2.1px;
 }
 
@@ -303,7 +303,7 @@ h3::after {
 .navigation-link:hover,
 .navigation-link:active {
   background-position: 100%;
-  color: var(--color-primary);
+  color: var(--color-primary-light-1);
   transform: translateX(1rem);
   -webkit-transform: translateX(1rem);
   -moz-transform: translateX(1rem);
@@ -378,7 +378,7 @@ h3::after {
   border: solid 2px var(--color-primary);
 }
 .cta-btn.e-mail:hover {
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-light-1);
   color: #fff;
   transition: all 0.3s;
 }
@@ -491,7 +491,7 @@ h3::after {
   -o-transition: all 1s;
 }
 .cta-btn:hover {
-  background-color: var(--color-primary-dark-2);
+  background-color: var(--color-primary-light-1);
   transition: all 0.3s;
 }
 
@@ -779,7 +779,7 @@ h3::after {
 }
 
 .footer {
-  background-color: var(--color-primary-light-1);
+  background-color: var(--color-primary);
   color: #fff;
   padding: 2.7rem;
   margin-top: 2.7rem;
@@ -789,6 +789,10 @@ h3::after {
   justify-content: space-between;
   align-items: center;
   gap: 2.7rem;
+}
+
+.footer .special-text {
+  color: var(--color-primary-light-1);
 }
 
 .popup {
